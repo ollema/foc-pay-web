@@ -1,0 +1,5 @@
+[run]
+include = foc_pay_web/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
